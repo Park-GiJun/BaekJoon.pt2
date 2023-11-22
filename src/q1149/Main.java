@@ -7,14 +7,14 @@ public class Main {
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int n = Integer.parseInt(br.readLine());
-        int arr[][] = new int[n + 1][3];
+        int arr[][] = new int[n][3];
         for (int i = 0; i < n; i++) {
             StringTokenizer st = new StringTokenizer(br.readLine());
             for (int j = 0; j < 3; j++) {
                 arr[i][j] = Integer.parseInt(st.nextToken());
             }
         }
-        int[][] arr2 = new int[n + 1][3];
+        int[][] arr2 = new int[n][3];
         arr2[0][0] = arr[0][0];
         arr2[0][1] = arr[0][1];
         arr2[0][2] = arr[0][2];
