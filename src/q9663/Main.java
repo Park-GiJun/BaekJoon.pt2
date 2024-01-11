@@ -17,6 +17,7 @@ public class Main {
         n = Integer.parseInt(br.readLine());
         count = 0;
 
+
         chessBoard = new int[n][n];
         conqueredByQueen = new boolean[n][n];
 
